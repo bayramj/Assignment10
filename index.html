@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+	<title>Assignment10 Slideshow</title>
+	<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="javascript/main.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Pattaya" rel="stylesheet">
+</head>
+<body>
+<h1>Hippo Gallery</h1>
+	<div class="slideshow-container">
+		<div class="mySlides fade">
+	  		<div class="grid-photos">
+				<img src="images/hippo1.jpg" alt="firstone" class="first">
+				<img src="images/hippo2.jpg" alt="secondone" class="second">
+				<img src="images/hippo3.jpg" alt="thirdone" class="third">
+				<img src="images/hippo4.jpg" alt="fourthone" class="fourth">
+		  		<img src="images/hippo5.jpg" alt="fifthone" class="fifth">
+			</div>
+		</div>
+		<div class="mySlides fade">
+    		<div class="grid-photos">
+				<img src="images/hipp1.jpg" alt="firsttwo" class="first">
+				<img src="images/hipp2.png" alt="secondtwo" class="second">
+				<img src="images/hipp3.jpg" alt="thirdtwo" class="third">
+				<img src="images/hipp4.jpeg" alt="fourthtwo" class="fourth">
+		  		<img src="images/hipp5.jpg" alt="fifthtwo" class="fifth">
+			</div>
+		</div>
+
+	<div class="mySlides fade">
+   		<div class="grid-photos">
+				<img src="images/hip3.png" alt="firstthree" class="first">
+				<img src="images/hip2.jpg" alt="secondthree" class="second">
+				<img src="images/hip1.png" alt="thirdthree" class="third">
+				<img src="images/hip4.jpg" alt="fourththree" class="fourth">
+		  		<img src="images/hip5.jpeg" alt="fifththree" class="fifth">
+			</div>
+		</div>
+	  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+	</div>
+	<br>
+	<div style="text-align:center">
+	  <span class="dot" onclick="currentSlide(1)"></span> 
+	  <span class="dot" onclick="currentSlide(2)"></span> 
+	  <span class="dot" onclick="currentSlide(3)"></span> 
+	</div>
+</body>
+</html>
